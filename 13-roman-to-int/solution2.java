@@ -2,8 +2,8 @@
 Improved on previous solution by including 
 only roman numeral characters in hashmap.
 Instead of checking if 2 character string is present,
-we can just check if one character is smaller than the next.
-If it is, take the difference and add it, then increment by 2
+for each character we can just check if it is smaller than the next.
+If it is, subtract it, otherwise add it.
 */
 
 import java.util.*;
