@@ -18,7 +18,7 @@ class Solution {
             return visits;
         }
         
-        // if there are no more gas stations and we dont have enougb fuel to get to dest
+        // if there are no more gas stations and we dont have enough fuel to get to dest
         // OR if we dont have enough fuel to get to the next gas station, return
         if ((passed == stations.length) || (fuel < (stations[passed][0] - distance))) {
             return stations.length + 1;
