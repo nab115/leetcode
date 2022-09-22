@@ -50,6 +50,6 @@ can simply consider the longest sequence that ends with a number smaller than 12
 So the solution is simply to iterate through each element, and for that index store
 the size + 1 of the maximum prior sequence ending with an element less than the current.
 
-We will iterate through all elements i n N, and at each element look back at all
+We will iterate through all elements i in N, and at each element look back at all
 previous elements to determine the max length for i, resulting in O(N^2)
 
